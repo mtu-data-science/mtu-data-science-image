@@ -1,3 +1,9 @@
+# mtu-data-science-image 
+
+This is a hub-user-image created for data science classes at MTU.  
+
+It was build using a template repository for creating dedicated user images for hubs. 
+
 # hub-user-image-template :paperclip:
 
 This is a template repository for creating dedicated user images for 2i2c hubs.
