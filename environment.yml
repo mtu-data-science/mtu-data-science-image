@@ -4,13 +4,60 @@ channels:
   - conda-forge
 
 dependencies:
-  - jupyter_contrib_nbextensions==0.5.1
   # Required until https://github.com/jupyterhub/repo2docker/pull/1196 is merged
   - jupyterhub-singleuser>=3.0,<4.0
   # Set default python version to 3.10 - repo2docker sets it to 3.7 instead by default,
   # which can limit us to older package versions
   - python=3.10
   # Everyone wants to use nbgitpuller for everything, so let's do that
-  - nbgitpuller=1.1.*
-  # Add other packages here
-  # -
+  - nbgitpuller>=1.1.*
+  - pip
+  - nb_conda_kernels
+  # across all classes
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - seaborn
+  #- sympy
+  - networkx
+  - scikit-learn
+  - beautifulsoup4
+  - altair
+  - plotly
+  # infrastructure
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - ipython_genutils
+  - Jinja2>=3.0.*
+  - jupyter-resource-usage
+  # older version of jupyter notebooks?
+  ## - jupyter_contrib_nbextensions
+  - notebook
+  - ipywidgets
+  - jupytext
+  - nbformat
+  - nbconvert
+  - nbclassic
+  - pandoc
+  # UN 5550
+  - lxml
+  - html5lib
+  - requests
+  # CS 4821 / CS 5831
+  #- nltk
+  #- gensim
+  #- spacy
+  #- imbalanced-learn
+  #- scikit-surprise
+  #- lightfm
+  #- mlxtend
+  # DATA 1202
+  - datascience
+  - pip:
+      - dill
+      - otter-grader==5.5.0
+      - scikit-learn-extra
+      #- aprior_python
+      #- efficient-apriori
