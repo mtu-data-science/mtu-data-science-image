@@ -52,7 +52,7 @@ dependencies:
   #- imbalanced-learn
   #- scikit-surprise
   #- lightfm
-  #- mlxtend
+  - mlxtend
   # DATA 1202
   - datascience
   - pip:
