@@ -46,10 +46,10 @@ dependencies:
   - html5lib
   - requests
   # CS 4821 / CS 5831
-  #- nltk
+  - nltk
   #- gensim
   #- spacy
-  #- imbalanced-learn
+  ##- imbalanced-learn
   #- scikit-surprise
   #- lightfm
   - mlxtend
