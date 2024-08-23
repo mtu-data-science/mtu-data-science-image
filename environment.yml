@@ -20,11 +20,11 @@ dependencies:
   - pandas
   - seaborn
   #- sympy
-  - networkx
+  #- networkx
   - scikit-learn
   - beautifulsoup4
-  - altair
-  - plotly
+  #- altair
+  #- plotly
   # infrastructure
   - jupyter
   - jupyterlab
@@ -42,22 +42,22 @@ dependencies:
   - nbclassic
   - pandoc
   # UN 5550
-  - lxml
-  - html5lib
-  - requests
+  #- lxml
+  #- html5lib
+  #- requests
   # CS 4821 / CS 5831
   #- nltk
   #- gensim
   #- spacy
-  #- imbalanced-learn
+  ##- imbalanced-learn
   #- scikit-surprise
   #- lightfm
-  - mlxtend
+  #- mlxtend
   # DATA 1202
   - datascience
   - pip:
       - dill
       - otter-grader==5.5.0
-      - scikit-learn-extra
+      #- scikit-learn-extra
       #- aprior_python
       #- efficient-apriori
